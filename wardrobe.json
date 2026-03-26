@@ -1,0 +1,357 @@
+{
+  "clothing": [
+    {
+      "id": "top1",
+      "name": "Pastel Pink Office Top",
+      "category": "top",
+      "occasions": ["office", "formal"],
+      "style": ["minimal", "elegant"],
+      "weather": ["warm", "mild", "cold"],
+      "color": "pink",
+      "image_path": "Data/tops/top1.webp"
+    },
+    {
+      "id": "top2",
+      "name": "Yellow Office Top",
+      "category": "top",
+      "occasions": ["office", "formal"],
+      "style": ["minimal"],
+      "weather": ["warm", "mild"],
+      "color": "yellow",
+      "image_path": "Data/tops/top2.webp"
+    },
+    {
+      "id": "top3",
+      "name": "White Formal Top",
+      "category": "top",
+      "occasions": ["office", "party"],
+      "style": ["minimal", "casual"],
+      "weather": ["warm", "mild", "cold"],
+      "color": "white",
+      "image_path": "Data/tops/top3.jpg"
+    },
+    {
+      "id": "top4",
+      "name": "Red Blouse",
+      "category": "top",
+      "occasions": ["party", "casual"],
+      "style": ["bold"],
+      "weather": ["mild", "warm"],
+      "color": "red",
+      "image_path": "Data/tops/top4.webp"
+    },
+    {
+      "id": "top5",
+      "name": "Dark Red Blouse",
+      "category": "top",
+      "occasions": ["office", "party"],
+      "style": ["elegant"],
+      "weather": ["warm", "mild", "cold"],
+      "color": "Dark Red",
+      "image_path": "Data/tops/top5.webp"
+    },
+    {
+      "id": "casualTop1",
+      "name": "White Butterfly Casual Top",
+      "category": "casual_top",
+      "occasions": ["casual", "party"],
+      "style": ["bold"],
+      "weather": ["warm", "mild"],
+      "color": "white",
+      "image_path": "Data/casual tops/casualTop1.webp"
+    },
+    {
+      "id": "casualTop2",
+      "name": "White with Blue Floral Casual Tee",
+      "category": "casual_top",
+      "occasions": ["casual"],
+      "style": ["minimal"],
+      "weather": ["mild", "warm"],
+      "color": "floral",
+      "image_path": "Data/casual tops/casualTop2.webp"
+    },
+    {
+      "id": "casualTop3",
+      "name": "Blue Casual Tee",
+      "category": "casual_top",
+      "occasions": ["casual"],
+      "style": ["minimal"],
+      "weather": ["warm", "mild", "cold"],
+      "color": "light blue",
+      "image_path": "Data/casual tops/casualTop3.webp"
+    },
+    {
+      "id": "casualTop4",
+      "name": "Purple Night Top",
+      "category": "casual_top",
+      "occasions": ["casual", "nightwear"],
+      "style": ["casual", "comfy"],
+      "weather": ["mild"],
+      "color": "purple",
+      "image_path": "Data/casual tops/casualTop4.webp"
+    },
+    {
+      "id": "casualTop5",
+      "name": "Brown Top",
+      "category": "casual_top",
+      "occasions": ["casual"],
+      "style": ["bold"],
+      "weather": ["warm", "mild"],
+      "color": "brown",
+      "image_path": "Data/casual tops/casualTop5.webp"
+    },
+    {
+      "id": "bottom1",
+      "name": "Blue Tailored Trousers",
+      "category": "bottom",
+      "occasions": ["office"],
+      "style": ["minimal", "elegant"],
+      "weather": ["warm", "mild", "cold"],
+      "color": "light blue",
+      "image_path": "Data/bottoms/bottom1.webp"
+    },
+    {
+      "id": "bottom2",
+      "name": "Beige Wide Leg Pants",
+      "category": "bottom",
+      "occasions": ["office", "casual"],
+      "style": ["minimal"],
+      "weather": ["mild", "warm"],
+      "color": "beige",
+      "image_path": "Data/bottoms/bottom2.webp"
+    },
+    {
+      "id": "bottom3",
+      "name": "Black Formal Pants",
+      "category": "bottom",
+      "occasions": ["office"],
+      "style": ["minimal", "elegant"],
+      "weather": ["warm", "mild", "cold"],
+      "color": "navy",
+      "image_path": "Data/bottoms/bottom3.webp"
+    },
+    {
+      "id": "bottom4",
+      "name": "Black and White Stripe Trousers",
+      "category": "bottom",
+      "occasions": ["office", "casual", "party"],
+      "style": ["minimal", "elegant"],
+      "weather": ["warm", "mild"],
+      "color": "multicolor",
+      "image_path": "Data/bottoms/bottom4.webp"
+    },
+    {
+      "id": "bottom5",
+      "name": "Brown Stripes long pants",
+      "category": "bottom",
+      "occasions": ["office", "party"],
+      "style": ["elegant"],
+      "weather": ["warm", "mild", "cold"],
+      "color": "brown",
+      "image_path": "Data/bottoms/bottom5.webp"
+    },
+    {
+      "id": "jeans1",
+      "name": "Light Wash Straight Jeans",
+      "category": "jeans",
+      "occasions": ["casual", "party"],
+      "style": ["minimal", "casual"],
+      "weather": ["warm", "mild", "cold"],
+      "color": "faded blue",
+      "image_path": "Data/jeans/jeans1.webp"
+    },
+    {
+      "id": "jeans2",
+      "name": "Blue Straight Jeans",
+      "category": "jeans",
+      "occasions": ["casual"],
+      "style": ["minimal"],
+      "weather": ["warm", "mild"],
+      "color": "light blue",
+      "image_path": "Data/jeans/jeans2.webp"
+    },
+    {
+      "id": "jeans3",
+      "name": "Blue Floral Slim Jeans",
+      "category": "jeans",
+      "occasions": ["casual", "party"],
+      "style": ["minimal", "bold"],
+      "weather": ["warm", "mild", "cold"],
+      "color": "light blue",
+      "image_path": "Data/jeans/jeans3.webp"
+    },
+    {
+      "id": "jeans4",
+      "name": "Low Waist Mom Jeans",
+      "category": "jeans",
+      "occasions": ["casual"],
+      "style": ["minimal"],
+      "weather": ["warm", "mild"],
+      "color": "medium blue",
+      "image_path": "Data/jeans/jeans4.webp"
+    },
+    {
+      "id": "jeans5",
+      "name": "Distressed Boyfriend Jeans",
+      "category": "jeans",
+      "occasions": ["casual", "party"],
+      "style": ["bold", "comfy"],
+      "weather": ["warm", "mild"],
+      "color": "light gray",
+      "image_path": "Data/jeans/jeans5.webp"
+    },
+    {
+      "id": "dress1",
+      "name": "Simple One-piece brown Dress",
+      "category": "dress",
+      "occasions": ["office", "formal"],
+      "style": ["elegant"],
+      "weather": ["warm", "mild"],
+      "color": "light brown",
+      "image_path": "Data/dresses/dress1.webp"
+    },
+    {
+      "id": "dress2",
+      "name": "Pink flared Dress",
+      "category": "dress",
+      "occasions": ["party"],
+      "style": ["bold", "elegant"],
+      "weather": ["warm", "mild", "cold"],
+      "color": "pink",
+      "image_path": "Data/dresses/dress2.webp"
+    },
+    {
+      "id": "dress3",
+      "name": "Red Party Long Dress",
+      "category": "dress",
+      "occasions": ["party"],
+      "style": ["elegant", "bold"],
+      "weather": ["warm"],
+      "color": "red",
+      "image_path": "Data/dresses/dress3.webp"
+    },
+    {
+      "id": "dress4",
+      "name": "Blue Floral Wrap Dress",
+      "category": "dress",
+      "occasions": ["office", "party"],
+      "style": ["elegant"],
+      "weather": ["mild", "warm"],
+      "color": "multicolor",
+      "image_path": "Data/dresses/dress4.webp"
+    },
+    {
+      "id": "dress5",
+      "name": "Boho Maxi Dress",
+      "category": "dress",
+      "occasions": ["casual", "party"],
+      "style": ["elegant", "bold"],
+      "weather": ["warm"],
+      "color": "earthy blue",
+      "image_path": "Data/dresses/dress5.webp"
+    }
+  ],
+  "accessories": [
+    {
+      "id": "earring_studs",
+      "name": "Stone Stud Earrings",
+      "category": "earrings",
+      "occasions": ["office", "party", "casual"],
+      "style": ["minimal", "elegant"],
+      "image_path": "Data/earrings/studs.jpg"
+    },
+    {
+      "id": "earring_hoops",
+      "name": "Gold Hoop Earrings",
+      "category": "earrings",
+      "occasions": ["casual", "party"],
+      "style": ["bold"],
+      "image_path": "Data/earrings/hoops.webp"
+    },
+    {
+      "id": "earring_casual",
+      "name": "Simple Drop Earrings",
+      "category": "earrings",
+      "occasions": ["casual", "office"],
+      "style": ["minimal"],
+      "image_path": "Data/earrings/casual.jpg"
+    },
+    {
+      "id": "footwear_flats",
+      "name": "Nude closed shoes",
+      "category": "footwear",
+      "occasions": ["office", "casual"],
+      "style": ["minimal", "elegant"],
+      "weather": ["warm", "mild", "cold"],
+      "image_path": "Data/footwear/flats.jpg"
+    },
+    {
+      "id": "footwear_heels",
+      "name": "Pointed Black & White Heel Pumps",
+      "category": "footwear",
+      "occasions": ["office", "party"],
+      "style": ["elegant", "bold"],
+      "weather": ["mild", "cold"],
+      "image_path": "Data/footwear/heels.jpg"
+    },
+    {
+      "id": "footwear_sandals",
+      "name": "Strappy Sandals",
+      "category": "footwear",
+      "occasions": ["casual", "party"],
+      "style": ["casual", "comfy"],
+      "weather": ["warm"],
+      "image_path": "Data/footwear/sandals.jpg"
+    },
+    {
+      "id": "footwear_sneakers",
+      "name": "White Sneakers",
+      "category": "footwear",
+      "occasions": ["casual"],
+      "style": ["minimal", "bold"],
+      "weather": ["warm", "mild"],
+      "image_path": "Data/footwear/sneakers.jpg"
+    },
+    {
+      "id": "footwear_casuals",
+      "name": "White Casual Shoes",
+      "category": "footwear",
+      "occasions": ["casual"],
+      "style": ["minimal"],
+      "weather": ["warm", "mild", "cold"],
+      "image_path": "Data/footwear/casuals.jpg"
+    },
+    {
+      "id": "handbag1",
+      "name": "Structured Work Tote",
+      "category": "handbag",
+      "occasions": ["office", "party"],
+      "style": ["minimal", "elegant"],
+      "image_path": "Data/handbags/handbag1.jpg"
+    },
+    {
+      "id": "handbag2",
+      "name": "Mini Leather Crossbody",
+      "category": "handbag",
+      "occasions": ["casual", "party"],
+      "style": ["bold", "minimal"],
+      "image_path": "Data/handbags/handbag2.jpg"
+    },
+    {
+      "id": "handbag3",
+      "name": "Evening backpack",
+      "category": "handbag",
+      "occasions": ["outdoor"],
+      "style": ["casual", "comfy"],
+      "image_path": "Data/handbags/handbag3.jpg"
+    },
+    {
+      "id": "handbag4",
+      "name": "Canvas Tote Big Bag",
+      "category": "handbag",
+      "occasions": ["casual", "office"],
+      "style": ["minimal", "comfy"],
+      "image_path": "Data/handbags/handbag4.jpg"
+    }
+  ]
+}
