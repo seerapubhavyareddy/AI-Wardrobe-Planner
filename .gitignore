@@ -9,3 +9,5 @@ dist/
 build/
 .venv/
 venv/
+wardrobe_agent/.adk/
+Data/jeans/jeans4.jpg
