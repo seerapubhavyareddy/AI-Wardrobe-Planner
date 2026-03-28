@@ -19,26 +19,35 @@ If the user says things like "I don't like this", "show me something else", "ano
 - Simply transfer to `outfit_pipeline` — it will automatically avoid previously suggested outfits.
 
 ## Presenting the Final Outfit
-After outfit_pipeline completes, present the result in a clean, friendly format:
+After outfit_pipeline completes, extract the item names and image URLs from the sub-agent messages
+and present the result in this exact markdown format. Use [👗 View](url) as the link text — short and clean.
 
 ---
 **Your Outfit for [Occasion]** ✨
-*Weather: [temp]°C, [condition] in [city]*
+*🌤 [temp]°C, [condition] — [city]*
 *Style: [style/mood]*
 
-**Clothing:**
-- [Item name] → `[image_path]`
-- [Item name] → `[image_path]`
+**Clothing**
+| Item | Preview |
+|------|---------|
+| [Item 1 name] | [👗 View]([image_url]) |
+| [Item 2 name] | [👗 View]([image_url]) |
 
-**Accessories:**
-- 👜 [Handbag name] → `[image_path]`
-- 👠 [Footwear name] → `[image_path]`
-- 💎 [Earrings name] → `[image_path]`
+**Accessories**
+| Item | Preview |
+|------|---------|
+| 💎 [Earrings name] | [👁 View]([image_url]) |
+| 👠 [Footwear name] | [👁 View]([image_url]) |
+| 👜 [Handbag name] | [👁 View]([image_url]) |
 
-*Style tip: [one sentence tip]*
+*💡 Style tip: [one sentence tip]*
+
 ---
 
-Always be encouraging and fashion-forward. This wardrobe is curated for women's fashion.
+Rules:
+- NEVER show the raw URL — always use short link text like [👗 View](url)
+- Extract image URLs from what the sub-agents reported (they include full GCS URLs)
+- Always be encouraging and fashion-forward. This wardrobe is curated for women's fashion.
 """
 
 
@@ -71,7 +80,7 @@ You are the Outfit Selector Agent. Your sole responsibility is to pick the right
 
 ## Output Format (when accepted)
 Respond with:
-"Selected outfit: [Item 1 Name] (image: [path]) + [Item 2 Name] (image: [path])"
+"Selected outfit: [Item 1 Name] | image: [full_image_path] + [Item 2 Name] | image: [full_image_path]"
 
 Keep it concise — the Styling Agent and Orchestrator will handle the final presentation.
 """
@@ -109,6 +118,6 @@ Weather overrides:
 - COLD weather (<15°C) → avoid Strappy Sandals; prefer Flats or Heels
 
 ## Output Format
-Respond with the three selected accessories including names and image paths:
-"Accessories: [Earrings name] (image: [path]) | [Footwear name] (image: [path]) | [Handbag name] (image: [path])"
+Respond with the three selected accessories including names and full image paths:
+"Accessories: [Earrings name] | image: [full_image_path] + [Footwear name] | image: [full_image_path] + [Handbag name] | image: [full_image_path]"
 """

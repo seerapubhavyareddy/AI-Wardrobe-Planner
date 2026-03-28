@@ -6,6 +6,14 @@ from google.adk.tools import ToolContext
 
 WARDROBE_JSON_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "wardrobe.json")
 
+# Base URL for wardrobe images hosted on GCS.
+# Set to "" to use local relative paths (for local dev with adk web).
+# Set to GCS bucket URL for Cloud Run deployment.
+IMAGE_BASE_URL = os.environ.get(
+    "IMAGE_BASE_URL",
+    "https://storage.googleapis.com/wardrobe-planner-images"
+)
+
 
 def get_weather(city: str, tool_context: ToolContext) -> str:
     """
@@ -93,6 +101,11 @@ def load_wardrobe(tool_context: ToolContext) -> str:
     """
     with open(WARDROBE_JSON_PATH, "r", encoding="utf-8") as f:
         wardrobe = json.load(f)
+
+    # Prepend base URL to all image_path fields if IMAGE_BASE_URL is set
+    if IMAGE_BASE_URL:
+        for item in wardrobe.get("clothing", []) + wardrobe.get("accessories", []):
+            item["image_path"] = f"{IMAGE_BASE_URL}/{item['image_path']}"
 
     tool_context.state["wardrobe"] = wardrobe
 

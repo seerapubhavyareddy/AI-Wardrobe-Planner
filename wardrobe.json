@@ -58,7 +58,7 @@
       "style": ["bold"],
       "weather": ["warm", "mild"],
       "color": "white",
-      "image_path": "Data/casual tops/casualTop1.webp"
+      "image_path": "Data/casualTops/casualTop1.webp"
     },
     {
       "id": "casualTop2",
@@ -68,7 +68,7 @@
       "style": ["minimal"],
       "weather": ["mild", "warm"],
       "color": "floral",
-      "image_path": "Data/casual tops/casualTop2.webp"
+      "image_path": "Data/casualTops/casualTop2.webp"
     },
     {
       "id": "casualTop3",
@@ -78,7 +78,7 @@
       "style": ["minimal"],
       "weather": ["warm", "mild", "cold"],
       "color": "light blue",
-      "image_path": "Data/casual tops/casualTop3.webp"
+      "image_path": "Data/casualTops/casualTop3.webp"
     },
     {
       "id": "casualTop4",
@@ -88,7 +88,7 @@
       "style": ["casual", "comfy"],
       "weather": ["mild"],
       "color": "purple",
-      "image_path": "Data/casual tops/casualTop4.webp"
+      "image_path": "Data/casualTops/casualTop4.webp"
     },
     {
       "id": "casualTop5",
@@ -98,7 +98,7 @@
       "style": ["bold"],
       "weather": ["warm", "mild"],
       "color": "brown",
-      "image_path": "Data/casual tops/casualTop5.webp"
+      "image_path": "Data/casualTops/casualTop5.webp"
     },
     {
       "id": "bottom1",
